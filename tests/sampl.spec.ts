@@ -3,7 +3,7 @@ import { test, expect, chromium } from '@playwright/test';
 test('Login test', async () => {
 
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
    // slowMo: 3000
   });
 
